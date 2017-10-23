@@ -17,7 +17,7 @@ Public MustInherit Class Settings
     Sub New()
         Me.Iterations = 1                                                   '// Iterations, more then 3+ can be slow and performance costly
         Me.Distribution = 1                                                 '// Deposit classes where additional methods will be created
-        Me.Neglecting = 0.00001R                                            '// Decimal neglecting tolerance, ex 10.000001 will be accepted as 10
+        Me.Neglecting = 0.00001R                                            '// Decimal neglecting tolerance
 
         Me.Culture = New CultureInfo("en-US")                               '// Used to define the decimal formats
 
